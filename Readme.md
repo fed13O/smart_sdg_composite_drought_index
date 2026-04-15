@@ -74,10 +74,9 @@ Several deep learning architectures were tested for CDI forecasting:
 ## Repository Structure
 
 ```
-/data/              # Input data (optional — not included if too large)
+/data/              # Input data (scripts)
 /models/            # Deep learning training and testing scripts
-/results/           # Outputs (maps, plots, metrics)
-/notebooks/         # Experiments and analysis notebooks
+/Visualisations/    # Outputs (maps, plots, metrics)
 README.md
 requirements.txt
 ```
