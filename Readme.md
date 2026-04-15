@@ -75,7 +75,6 @@ Several deep learning architectures were tested for CDI forecasting:
 
 ```
 /data/              # Input data (optional — not included if too large)
-/scripts/           # Preprocessing and index calculation scripts
 /models/            # Deep learning training and testing scripts
 /results/           # Outputs (maps, plots, metrics)
 /notebooks/         # Experiments and analysis notebooks
@@ -90,8 +89,8 @@ requirements.txt
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/fed13O/smart_sdg_composite_drought_index.git
+cd smart_sdg_composite_drought_index
 ```
 
 Install dependencies:
@@ -150,10 +149,10 @@ python forecast.py --model TimeFormer
 If you use this repository, please cite:
 
 ```bibtex
-@article{yourpaper2025,
+@article{paper,
   title={A High-Resolution Composite Drought Index Dataset for Tunisia (2000–2025) and Its Forecasting Using Deep Learning Models},
-  author={Farah, Imed Riadh and others},
-  year={2025}
+  author={Dhouha Ben Othmen, Fedi Oueslati, Farah Chouikhi, Ali Ben Abbes, Manel Mrabet, Hanen Balti, Mohamed Farah an Imed Riadh Farah},
+  year={2026}
 }
 ```
 
@@ -169,5 +168,5 @@ This project is released under the **MIT License** — see the [LICENSE](LICENSE
 
 For questions or collaboration, please contact:
 
-- **Name:** [Your Name]
-- **Email:** your_email@example.com
+- **Name:** [Fedi Oueslati]
+- **Email:** oueslatifadi2018@gmail.com
